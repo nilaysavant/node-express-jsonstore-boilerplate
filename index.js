@@ -19,7 +19,7 @@ if (DB || DB === false) {
 }
 
 /** Server Port Variable */
-const PORT = 3000
+const PORT = process.env.PORT || 3000
 
 /** init express app */
 const app = express()
